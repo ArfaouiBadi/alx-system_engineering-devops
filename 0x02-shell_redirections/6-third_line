@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Store the contents of the file iacta in a variable
+contents=$(cat iacta)
+
+# Use awk to print the third line of the file
+echo "$contents" | awk 'NR==3'
