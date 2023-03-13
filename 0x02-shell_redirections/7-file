@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Create the file with touch command
+touch '*\\"Best School"\'\\*$?*****:)'
+
+# Echo the string "Best School" into the file
+echo "Best School" > '*\\"Best School"\'\\*$?*****:)'
+
+# Echo a newline character to the end of the file
+echo "" >> '*\\"Best School"\'\\*$?*****:)'
