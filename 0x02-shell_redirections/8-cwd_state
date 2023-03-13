@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Run the ls -la command and save its output to a variable
+ls_output=$(ls -la)
+
+# Write the contents of the variable to the file ls_cwd_content
+echo "$ls_output" > ls_cwd_content
